@@ -13,7 +13,7 @@ if __name__ == '__main__':
     graph_content = GraphContent(graph)  # TODO: Hier können Sie den Inhalt und Verbindungen ihrer Knoten anlegen.
 
     # Application
-    component_assembler = ComponentAssembler(graph, False)
+    component_assembler = ComponentAssembler(graph, True)
     main = ApplicationLoopManager(component_assembler)
     # pygame beenden
     pygame.quit()
