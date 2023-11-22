@@ -18,3 +18,4 @@ if __name__ == '__main__':
     # pygame beenden
     pygame.quit()
     sys.exit()
+    print("test")
