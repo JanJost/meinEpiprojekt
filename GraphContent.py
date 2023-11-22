@@ -1,6 +1,9 @@
 from GraphModel.Graph import Graph
 from GraphModel.Node import Node
+import textract
 
+
+text = textract.process("path/to/file.extension")
 
 class GraphContent:
 
